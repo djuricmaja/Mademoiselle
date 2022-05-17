@@ -1,0 +1,51 @@
+.my-lead{
+    background-size: cover;
+    background-position: center center;
+    max-width: 1600px;
+    margin-inline:auto;
+
+    h1{
+        color:#FFFFFF;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 7.4rem;
+        letter-spacing: 9px;
+    }
+}
+@media(min-width: 400px){
+    .my-lead{
+        padding: 70px;
+    }
+}
+@media(min-width: 696px){
+    .my-lead{
+        padding: 90px 167px;
+    }
+}
+@media(min-width: 822px){
+    .my-lead{
+        padding: 155px 196px;
+        h1{
+            font-size: 4rem;
+            letter-spacing: 15px;
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    .my-lead{
+        padding:193px 125px 193px 125px;
+        h1{
+            color:#FFFFFF;
+            text-align: center;
+            font-size: 6rem;
+            line-height: 8.4rem;
+            letter-spacing: 20px;
+        }
+    }
+}
+@media(min-width: 1400px){
+    .my-lead{
+        padding:218px 396px 269px 396px;
+    }
+}

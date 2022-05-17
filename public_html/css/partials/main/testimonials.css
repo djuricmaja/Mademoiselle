@@ -1,0 +1,30 @@
+.testimonials {
+  position: relative;
+  margin-bottom: 67px; }
+  .testimonials .test-wrap {
+    border: 1px solid #ECD9D9;
+    margin-top: 54px;
+    justify-content: space-around; }
+    .testimonials .test-wrap img {
+      display: block; }
+    .testimonials .test-wrap h5 {
+      text-transform: uppercase;
+      font-size: 3rem;
+      line-height: 2.7rem;
+      letter-spacing: normal;
+      margin-bottom: 3.5rem;
+      margin-top: 3.1rem; }
+    .testimonials .test-wrap p {
+      font-family: "Lato", sans-serif;
+      font-weight: 300; }
+  .testimonials .carousel-indicators [data-bs-target] {
+    position: relative !important;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    border: 1px solid #ECD9D9;
+    background-color: transparent; }
+  .testimonials .carousel-indicators [data-bs-target].active {
+    background-color: #ECD9D9; }
+  .testimonials .carousel-inner {
+    color: #fff; }
