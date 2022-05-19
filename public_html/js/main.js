@@ -80,7 +80,24 @@ if ($('.contact-form').length > 0) {
 
 
 
-    
+     $(document).ready(function () {
+            $(".testimonials-carousel").owlCarousel({
+                // loop: true,
+                // margin: 10,
+                // responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    768: {
+                        items: 1,
+                        nav: false
+                    }
+                }
+            });
+        });
+        //Owl Carousel
     
     
 });

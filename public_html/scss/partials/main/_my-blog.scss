@@ -1,6 +1,6 @@
 .my-blog{
     h2{
-       margin-bottom: 49px;
+        margin-bottom: 49px;
     }
     .news-item .news-item-deta{
         background-color: #fff;
@@ -10,7 +10,7 @@
         padding: 22px 18px 57px 19px;
         text-align: center;
         text-transform: uppercase;
-        
+
         p{
             margin-bottom: 17px;
             font-size: 14px;
@@ -18,7 +18,7 @@
             letter-spacing: 1;
             font-family: Bodoni Book;
             font-style: italic;
-                
+
         }
         a{
             text-decoration: none;
@@ -38,5 +38,87 @@
             -webkit-box-orient: vertical;
 
         }
+    }
+}
+.single-blog{
+    margin-top: 165px;
+    .single-blog-desc{
+        h1{
+            font-family: "Lato", sans-serif ;
+            font-weight: 400;
+            font-size: 3.4rem;
+            line-height: 5rem;
+            letter-spacing: normal;
+            text-transform: uppercase;
+            margin-bottom: 26px;
+        }
+        p{
+            font-weight: 300;
+            font-size: 2rem;
+            line-height:2.8rem;
+            letter-spacing: normal;
+            text-align: justify;
+
+        }
+        .single-blog-date{
+            margin-bottom: 20px;
+            a{
+                text-decoration: none;
+                color: inherit;
+                margin-right: 5px;
+            }
+            a:hover{
+                color: #D0B6B6;
+            }
+            p{
+                 font-family: Bodoni Book;
+                 font-style: italic;
+                 font-size: 1.4rem;
+                 line-height: 1.7rem;
+                 letter-spacing: 1px;
+                 margin: 5px 0 0 14px!important;
+            }
+        }
+    }
+}
+@media(min-width: 992px){
+    .single-blog .single-blog-desc h1{
+        font-size: 4.4rem;
+    }
+}
+.single-blog-content{
+    margin-top: 97px;
+    max-width: 748px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    letter-spacing: normal;
+    p{
+        margin-bottom: 15px;
+    }
+    img{
+        margin: 52px auto;
+        justify-content: center;
+    }
+    .single-blog-wraper{
+        margin-bottom: 41px;
+    }
+}
+.single-blog-tags{
+    font-size: 1.6rem;
+    margin-bottom: 270px;
+    p{
+        font-family: Bodoni Book;
+       font-style: italic;
+       
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+        background: #F5F5F5;
+        margin-right: 14px;
+        padding: 2px 13px;
+        
     }
 }

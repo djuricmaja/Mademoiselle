@@ -9598,6 +9598,19 @@ h2::before, .h2::before {
     .single-services .services-content h1, .single-services .services-content .h1 {
       font-size: 4.4rem; } }
 
+.error {
+  padding: 277px 449px 278px 449px !important;
+  text-align: -webkit-center; }
+  .error h1, .error .h1 {
+    font-size: 6rem;
+    line-height: 8.4rem; }
+  .error .btn-error {
+    border: 1px solid #FFFFFF;
+    border-radius: unset;
+    padding: 13px 36px;
+    margin-top: 36px;
+    color: #FFFFFF; }
+
 header .navbar-toggler {
   outline: none;
   box-shadow: none;
@@ -9699,6 +9712,71 @@ header .navbar-nav {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical; }
 
+.single-blog {
+  margin-top: 165px; }
+  .single-blog .single-blog-desc h1, .single-blog .single-blog-desc .h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 3.4rem;
+    line-height: 5rem;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    margin-bottom: 26px; }
+  .single-blog .single-blog-desc p {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    letter-spacing: normal;
+    text-align: justify; }
+  .single-blog .single-blog-desc .single-blog-date {
+    margin-bottom: 20px; }
+    .single-blog .single-blog-desc .single-blog-date a {
+      text-decoration: none;
+      color: inherit;
+      margin-right: 5px; }
+    .single-blog .single-blog-desc .single-blog-date a:hover {
+      color: #D0B6B6; }
+    .single-blog .single-blog-desc .single-blog-date p {
+      font-family: Bodoni Book;
+      font-style: italic;
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+      letter-spacing: 1px;
+      margin: 5px 0 0 14px !important; }
+
+@media (min-width: 992px) {
+  .single-blog .single-blog-desc h1, .single-blog .single-blog-desc .h1 {
+    font-size: 4.4rem; } }
+
+.single-blog-content {
+  margin-top: 97px;
+  max-width: 748px;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  letter-spacing: normal; }
+  .single-blog-content p {
+    margin-bottom: 15px; }
+  .single-blog-content img {
+    margin: 52px auto;
+    justify-content: center; }
+  .single-blog-content .single-blog-wraper {
+    margin-bottom: 41px; }
+
+.single-blog-tags {
+  font-size: 1.6rem;
+  margin-bottom: 270px; }
+  .single-blog-tags p {
+    font-family: Bodoni Book;
+    font-style: italic; }
+  .single-blog-tags a {
+    text-decoration: none;
+    color: inherit;
+    background: #F5F5F5;
+    margin-right: 14px;
+    padding: 2px 13px; }
+
 .my-services .services-wrap {
   margin-top: 46px;
   margin-bottom: 111px; }
@@ -9779,6 +9857,126 @@ header .navbar-nav {
     background-color: #ECD9D9; }
   .testimonials .carousel-inner {
     color: #fff; }
+
+@media (min-width: 992px) {
+  .about-us-lead {
+    padding: 283px 450px; } }
+
+.abou-us {
+  margin-top: 102px;
+  margin-bottom: 143px; }
+  .abou-us .about-us-content h3, .abou-us .about-us-content .h3 {
+    text-transform: uppercase;
+    font-size: 4.4rem;
+    line-height: 5rem;
+    letter-spacing: normal;
+    margin-bottom: 30px; }
+  .abou-us .about-us-content p {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    letter-spacing: nomal;
+    margin-bottom: 29px; }
+  .abou-us .about-us-content img {
+    margin-bottom: 66px; }
+  .abou-us .abou-us-sidebar .input-group {
+    margin-bottom: 43px; }
+    .abou-us .abou-us-sidebar .input-group input {
+      font-family: Bodoni Book;
+      font-style: italic;
+      font-size: 2rem;
+      border-right: none;
+      padding: 15px 20px; }
+    .abou-us .abou-us-sidebar .input-group :focus {
+      box-shadow: none; }
+    .abou-us .abou-us-sidebar .input-group .input-group-text {
+      padding-right: 20px; }
+      .abou-us .abou-us-sidebar .input-group .input-group-text img {
+        width: 2rem; }
+  .abou-us .abou-us-sidebar .news-item .news-item-deta {
+    background-color: #fff;
+    position: relative;
+    margin-top: -50px;
+    width: 85%;
+    padding: 22px 18px 37px 19px;
+    text-align: center;
+    text-transform: uppercase; }
+    .abou-us .abou-us-sidebar .news-item .news-item-deta p {
+      margin-bottom: 17px;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 1;
+      font-family: Bodoni Book;
+      font-style: italic; }
+    .abou-us .abou-us-sidebar .news-item .news-item-deta a {
+      text-decoration: none;
+      color: inherit;
+      transition: 0.3s linear; }
+    .abou-us .abou-us-sidebar .news-item .news-item-deta :hover {
+      color: #D0B6B6; }
+    .abou-us .abou-us-sidebar .news-item .news-item-deta h3, .abou-us .abou-us-sidebar .news-item .news-item-deta .h3 {
+      font-size: 16px;
+      line-height: 24px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; }
+
+.my-form {
+  margin-bottom: 110px; }
+  .my-form h1, .my-form .h1 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 23px; }
+  .my-form .single-input input,
+  .my-form .single-input textarea {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.23px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    border: none;
+    padding: 12px 7px 11px 19px;
+    background-color: #fbfbfb;
+    border-radius: 0; }
+  .my-form button {
+    border: 1px solid #1E1E1E;
+    border-radius: unset;
+    padding: 13px 36px;
+    margin-top: 36px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.5px; }
+
+.my-form .map-wraper iframe {
+  max-width: -webkit-fill-available; }
+
+@media (min-width: 768px) {
+  .my-form {
+    position: relative; }
+    .my-form .map-wraper {
+      position: absolute;
+      top: 0px;
+      right: 0px; } }
+
+@media (min-width: 1400px) {
+  .my-form .map-wraper iframe {
+    max-width: initial; } }
+
+.contact-address {
+  background-color: #ECD9D9;
+  padding: 63px;
+  text-align: center;
+  margin-bottom: 46px; }
+  .contact-address p {
+    margin-bottom: 15px;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    letter-spacing: noraml;
+    font-weight: 300; }
 
 .social {
   background-color: #fff;

@@ -8,6 +8,7 @@ body{
     color: 1e1e1e;
 }
 
+
 h1{
     font-size: 3rem;
     line-height: 8.4rem;
@@ -88,3 +89,21 @@ h2::before{
         }
     }
 }
+
+.error{
+    padding:277px 449px 278px 449px!important;
+    text-align: -webkit-center;
+    h1{
+        font-size: 6rem;
+        line-height: 8.4rem;
+        
+    }
+    .btn-error{
+        border: 1px solid #FFFFFF;
+        border-radius: unset;
+        padding: 13px 36px;
+        margin-top: 36px;
+        color: #FFFFFF;
+    }
+}
+
